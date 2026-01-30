@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ClearPath Psychological Services</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f7f9fa;
+  color: #2b2b2b;
+  line-height: 1.7;
+}
+
+/* Header */
+header {
+  background: #ffffff;
+  padding: 18px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+header h1 {
+  font-size: 20px;
+  color: #1e4f5e;
+  margin: 0;
+  font-weight: 600;
+}
+
+nav a {
+  margin-left: 22px;
+  text-decoration: none;
+  color: #1e4f5e;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  background:
+    linear-gradient(rgba(235,242,244,0.95), rgba(235,242,244,0.95)),
+    url("https://images.unsplash.com/photo-1527137342181-19aab11a8ee8") center/cover;
+  padding: 120px 40px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 40px;
+  color: #1e4f5e;
+  margin-bottom: 18px;
+}
+
+.hero p {
+  max-width: 760px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.btn {
+  background: #1f7a8c;
+  color: white;
+  padding: 14px 34px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 26px;
+}
+
+/* Sections */
+section {
+  max-width: 1150px;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.alt {
+  background: #eef4f6;
+}
+
+h2 {
+  color: #1e4f5e;
+  margin-bottom: 24px;
+}
+
+h3 {
+  color: #1e4f5e;
+}
+
+/* Grid & Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+/* Form */
+form input, form textarea, form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #1f7a8c;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #1e4f5e;
+  color: white;
+  padding: 48px;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer p {
+  max-width: 900px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+/* Contact Info Links in Black */
+.contact-info a {
+  color: #000000; /* updated to black */
+  text-decoration: underline;
+}
+
+.contact-info a:hover {
+  color: #1f7a8c; /* hover effect matches brand color */
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>ClearPath Psychological Services</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#approach">Approach</a>
+    <a href="#pricing">Plans</a>
+    <a href="#booking">Book</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Clear Guidance. Meaningful Change.</h2>
+  <p>
+    Structured, ethical, and evidence-based psychological services designed
+    to support emotional clarity, resilience, and long-term wellbeing.
+  </p>
+  <a href="#booking" class="btn">Book an Appointment</a>
+</section>
+
+<section id="services">
+  <h2>Clinical Services</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2">
+      <h3>Individual Therapy</h3>
+      <p>Evidence-based treatment for anxiety, depression, trauma, stress, and life transitions.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0">
+      <h3>Psychological Assessments</h3>
+      <p>Comprehensive diagnostic and psychoeducational assessments for adults and students.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca">
+      <h3>Group Programs</h3>
+      <p>Structured group therapy focusing on stress regulation, resilience, and skill development.</p>
+    </div>
+  </div>
+</section>
+
+<section id="approach" class="alt">
+  <h2>Professional Approach</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Evidence-Based Care</h3>
+      <p>All interventions follow clinically validated psychological frameworks.</p>
+    </div>
+    <div class="card">
+      <h3>Ethical Standards</h3>
+      <p>Services comply with professional licensing, privacy, and ethical regulations.</p>
+    </div>
+    <div class="card">
+      <h3>Outcome-Focused</h3>
+      <p>Clear goals, progress tracking, and transparent treatment planning.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <h2>Plans & Benefits</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>8-Session Therapy Program</h3>
+      <p>Cost: $1,600 – $1,920</p>
+      <ul>
+        <li>Personalized treatment plan</li>
+        <li>Weekly 50-min sessions</li>
+        <li>Progress tracking and notes</li>
+        <li>Email support between sessions</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>12-Session Therapy Program</h3>
+      <p>Cost: $2,400 – $2,880</p>
+      <ul>
+        <li>Extended treatment for deeper challenges</li>
+        <li>Weekly 50-min sessions</li>
+        <li>Comprehensive progress reports</li>
+        <li>Follow-up plan after completion</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Psychological Assessments</h3>
+      <p>Cost: $1,400 – $3,500</p>
+      <ul>
+        <li>Psychoeducational, ADHD, adult assessments</li>
+        <li>Detailed diagnostic reports</li>
+        <li>Recommendations for interventions or accommodations</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Group Therapy</h3>
+      <p>Cost: $100 – $140/session</p>
+      <ul>
+        <li>Small group sessions</li>
+        <li>Skill-building exercises</li>
+        <li>Peer support and feedback</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="booking" class="alt">
+  <h2>Book an Appointment</h2>
+  <p>
+    Use the form below to request a consultation. A licensed clinician will contact you to schedule your appointment.
+  </p>
+
+  <form onsubmit="submitBooking(event)">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <select required>
+      <option value="">Select Service</option>
+      <option value="individual">Individual Therapy</option>
+      <option value="group">Group Therapy</option>
+      <option value="assessment">Psychological Assessment</option>
+    </select>
+    <input type="date" required>
+    <textarea rows="4" placeholder="Briefly describe your concerns"></textarea>
+    <button type="submit">Request Appointment</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Information</h2>
+  <p class="contact-info">
+    Email: <a href="mailto:clearpathpsychologicalservices@gmail.com">clearpathpsychologicalservices@gmail.com</a><br>
+    Instagram: <a href="https://www.instagram.com/clear.path.psychological.servi?igsh=MWYzeW14aHllbDB4cA==" target="_blank">@clear.path.psychological.servi</a>
+  </p>
+</section>
+
+<footer>
+  <p>
+    ClearPath Psychological Services provides psychological services by licensed professionals.
+    This website does not provide emergency services. If you are in crisis, contact local
+    emergency services or a crisis hotline immediately. All information is confidential
+    and handled according to professional privacy regulations.
+  </p>
+</footer>
+
+<script>
+function submitBooking(e) {
+  e.preventDefault();
+  alert("Thank you! Your appointment request has been received. A clinician will contact you shortly.");
+}
+</script>
+
+</body>
+</html>
